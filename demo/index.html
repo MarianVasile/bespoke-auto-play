@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>bespoke-auto-play demo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <h1>bespoke-auto-play</h1>
+
+    <article>
+      <section data-bespoke-auto-play="1">
+        <p>Slide 1</p>
+      </section>
+      <section data-bespoke-auto-play="1.5">
+        <p>Slide 2</p>
+      </section>
+      <section data-bespoke-auto-play="2.3, 0.5, 1, 2">
+		  <p class="bullet">Slide 3. With bullet points.</p>
+          <ul>
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+          </ul>
+      </section>
+      <section data-bespoke-auto-play="2">
+        <p>Slide 4</p>
+      </section>
+    </article>
+
+    <script src="../node_modules/bespoke/dist/bespoke.js"></script>
+    <script src="../node_modules/bespoke-classes/dist/bespoke-classes.js"></script>
+    <script src="../node_modules/bespoke-keys/dist/bespoke-keys.js"></script>
+    <script src="../node_modules/bespoke-touch/dist/bespoke-touch.js"></script>
+    <script src="../node_modules/bespoke-bullets/dist/bespoke-bullets.js"></script>
+    <script src="../dist/bespoke-auto-play.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
